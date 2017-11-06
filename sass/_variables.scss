@@ -1,0 +1,19 @@
+/* Fonts */
+@font-face {
+    font-family: 'Varsity';
+    src: url('/fonts/VarsityRegular.eot');
+    src: url('/fonts/VarsityRegular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/VarsityRegular.woff2') format('woff2'),
+        url('/fonts/VarsityRegular.woff') format('woff'),
+        url('/fonts/VarsityRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@mixin varsity {
+    font-family: 'Varsity', sans-serif;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+}
+
+/* Color Variables */
+$red: #ed1c24;
